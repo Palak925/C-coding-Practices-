@@ -7,9 +7,9 @@ int main()
     printf("Enter a limit: ");
     scanf("%d", &n);
 
-    if(n < 2)
+    if(n < 1)
     {
-        printf("Invalid input");
+        printf("Invalid number");
     }
     else
     {
