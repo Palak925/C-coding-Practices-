@@ -3,21 +3,20 @@ int main()
 {
     int arr[5],i;
    
-    int largest;
+    int smallest;
 
   printf("Enter the array element");
   for(i=0;i<5;i++)
   {
     scanf("%d", &arr[i]);
-   
-  }
-  for(i=0;i<5;i++)
-  {if(arr[i]>largest)
+   }
+  for(i=1;i<5;i++)
+  {if(arr[i]<smallest)
     {
-    largest = arr[i];
+    smallest = arr[0];
     }
   }
- printf("largest=%d",largest);
+ printf("smallest=%d",smallest);
 
  return 0;
 
