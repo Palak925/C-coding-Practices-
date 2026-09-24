@@ -12,6 +12,7 @@ int main()
      {
         scanf("%d",&arr1[i]);
      }
+
  
      for(i=0;i<size;i++)
      {
@@ -30,5 +31,4 @@ int main()
       printf("%d ", arr1[i]);
      }
  return 0;
-
-}
+    }
